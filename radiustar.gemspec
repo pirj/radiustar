@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<ipaddr_extensions>, [">= 2012.1.13"])
       s.add_development_dependency(%q<bones>, [">= 3.7.3"])
     else
-      s.add_dependency(%q<ipaddr_extensions>, [">= 2012.1.13"])
+      s.add_dependency(%q<ipaddr_extensions>, [">= 1.0"])
       s.add_dependency(%q<bones>, [">= 3.7.3"])
     end
   else
